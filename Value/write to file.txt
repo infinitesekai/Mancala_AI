@@ -1,0 +1,5 @@
+
+        f = open('alphaMaxValue.txt', 'a+')
+        f.write('\nscore \t')
+        f.write('%f' %score)
+        f.close()
